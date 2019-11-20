@@ -1,6 +1,6 @@
 
 def hopper
-	programmer_hash = 
+	programmer_hash = hopper[:grace_hopper]
  		{
         :grace_hopper => {
           :known_for => "COBOL",
@@ -15,7 +15,7 @@ def hopper
           :languages => ["C"]
         }
      }
-grace_hopper = hopper[:grace_hopper]
+
 
 
 end
@@ -42,8 +42,7 @@ def alan_kay_is_known_for
 end
 
 def dennis_ritchies_language
-	programmer_hash = 
- 		{
+	programmer_hash = [:dennis_ritchie] [:languages]
         :grace_hopper => {
           :known_for => "COBOL",
           :languages => ["COBOL", "FORTRAN"]
@@ -57,10 +56,10 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
-      :dennis_ritchie = programmer_hash [:languages]
+      
 end
 
-def adding_matz[:grace_hopper, :alan_kay, :dennis_ritchie]
+def adding_matz = [:grace_hopper, :alan_kay, :dennis_ritchie]
   adding_matz[:yukihiro_matsumoto] =  {
       :known_for => "Ruby",
       :languages => ["LISP", "C"] }
